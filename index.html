@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Checklist des têtes de mobs obtenables avec le datapack More Mob Heads : taux de drop avec et sans Looting, lieux, accouplement.">
+    <meta name="color-scheme" content="light dark">
+    <title>More Mob Heads – têtes obtenables</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#table">Aller au tableau</a>
+    <header class="top">
+      <div class="title">
+        <h1>More Mob Heads – têtes obtenables</h1>
+        <p id="summary" class="summary"></p>
+      </div>
+      <div class="prefs">
+        <button type="button" id="a11y" class="icon-btn" aria-label="Accessibilité" aria-haspopup="dialog"></button>
+        <button type="button" id="theme" class="icon-btn" aria-label="Thème : Auto" data-theme="system"></button>
+      </div>
+    </header>
+
+    <main>
+      <div id="alert" role="alert"></div>
+
+      <div class="bar" role="search">
+        <div class="field grow">
+          <label class="field-label" for="q">Filtrer</label>
+          <div class="search">
+            <input id="q" type="search" autocomplete="off" aria-describedby="q-hint">
+            <button type="button" id="reset" class="clear" aria-label="Effacer le filtre" hidden>×</button>
+          </div>
+          <p id="q-hint" class="hint">Plusieurs termes séparés par une virgule (ex. : wolf, cat, panda)</p>
+        </div>
+        <div class="field">
+          <label class="check"><input type="checkbox" id="exact"> Nom exact</label>
+        </div>
+        <div class="field">
+          <label class="field-label" for="view">Afficher</label>
+          <select id="view">
+            <option value="all">Toutes les têtes</option>
+            <option value="owned">Obtenues seulement</option>
+            <option value="missing">Manquantes seulement</option>
+          </select>
+        </div>
+      </div>
+
+      <p id="count" class="count" role="status"></p>
+
+      <section id="table" class="wrap" aria-label="Tableau des têtes" tabindex="0">
+        <table>
+          <caption class="sr-only">Têtes obtenables, avec leur taux de drop, leur lieu et leur objet d'accouplement. Les en-têtes de colonnes sont des boutons de tri.</caption>
+          <thead>
+            <tr>
+              <th data-sort="owned"><button type="button"><span aria-hidden="true">✓</span><span class="sr-only">Obtenue</span></button></th>
+              <th><span class="sr-only">Aperçu</span></th>
+              <th data-sort="name"><button type="button">Mob · tête · condition</button></th>
+              <th data-sort="rate"><button type="button">Taux : sans Looting → Looting III</button></th>
+              <th data-sort="where"><button type="button">Où le trouver · accouplement</button></th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </section>
+      <noscript><p class="box">Le tableau demande JavaScript pour s'afficher.</p></noscript>
+
+      <div class="duo">
+        <section class="box" aria-labelledby="h-read">
+          <h2 id="h-read">Lecture</h2>
+          <ul>
+            <li>Toutes les têtes exigent que le mob soit <b>tué par un joueur</b> (les moutons aussi : non tondus).</li>
+            <li>Taux = probabilité par kill, affichée « sans Looting → Looting III » (parfois énorme : Bogged, Stray, Parched passent de 6 % à 21 %).</li>
+            <li><b>100 %</b> : tête garantie à chaque kill (ex. Villager, Warden, Elder Guardian, Wither).</li>
+            <li>Lignes « n/a » : mobs présents dans le datapack mais sans tête ajoutée. Creeper non chargé, Zombie, Skeleton et Piglin : tête vanilla via l'explosion d'un creeper chargé ; Wither Skeleton : drop vanilla du crâne.</li>
+            <li>Biomes et structures : ajoutés de mémoire, ils ne figurent pas dans le datapack. Les « (?) » sont incertains, surtout pour les mobs récents.</li>
+          </ul>
+          <h3>Icônes</h3>
+          <ul class="legend">
+            <li><span class="ic ic-pin" aria-hidden="true"></span> Lieu</li>
+            <li><span class="ic ic-heart" aria-hidden="true"></span> Accouplement</li>
+            <li><span class="ic ic-variant" aria-hidden="true"></span> Variante</li>
+            <li><span class="ic ic-tag" aria-hidden="true"></span> Nom à donner</li>
+            <li><span class="ic ic-bolt" aria-hidden="true"></span> Creeper chargé</li>
+            <li><span class="ic ic-info" aria-hidden="true"></span> Autre condition</li>
+            <li><span class="ic ic-overworld" aria-hidden="true"></span> Overworld</li>
+            <li><span class="ic ic-nether" aria-hidden="true"></span> Nether</li>
+            <li><span class="ic ic-end" aria-hidden="true"></span> End</li>
+          </ul>
+        </section>
+        <section class="box" aria-labelledby="h-cases">
+          <h2 id="h-cases">Cas particuliers</h2>
+          <ul>
+            <li><b>Wither</b> : Wither Head garantie + 50 % de chance d'une tête de projectile (Wither ou Blue, 25 % chacune).</li>
+            <li><b>Strider</b> : lot à 10 % (sans Looting), puis tirage 50/50 entre Strider Head et Cold Strider Head.</li>
+            <li><b>Lapin « Toast »</b>, <b>mouton « jeb_ »</b> : mob à renommer (étiquette).</li>
+            <li><b>Panda Head</b> (sans gène) : se déclenche pour les combinaisons de gènes qui ne correspondent à aucune variante listée.</li>
+            <li><b>Loup</b> : les deux lignes « (repli) » ne concernent que les loups morts <b>sans être tués par un joueur</b> (lave, autre mob…) : 20 % d'une Pale Wolf Head (calme ou énervée), quelle que soit la variante, sans bonus de Looting. Quand un joueur tue le loup, seul le tirage normal s'applique.</li>
+            <li><b>Vex</b> : deux têtes de même nom mais de son différent (5 % chacune, 10 % au total).</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="foot">
+      <p>Version <span class="app-version">dev</span> · <a href="https://github.com/douzeEnsemble/MoreMobsHeadsChecklist">Code source</a></p>
+    </footer>
+
+    <dialog id="a11y-dialog" aria-labelledby="a11y-title">
+      <div class="dialog-body">
+        <h2 id="a11y-title">Accessibilité</h2>
+        <ul class="options">
+          <li>
+            <label class="option">
+              <input type="checkbox" data-pref="largeText">
+              <span><strong>Texte plus grand</strong><small>Agrandit textes, icônes et zones cliquables.</small></span>
+            </label>
+          </li>
+          <li>
+            <label class="option">
+              <input type="checkbox" data-pref="highContrast">
+              <span><strong>Contraste élevé</strong><small>Renforce le contraste des textes et des bordures.</small></span>
+            </label>
+          </li>
+          <li>
+            <label class="option">
+              <input type="checkbox" data-pref="reduceMotion">
+              <span><strong>Réduire les animations</strong><small>Coupe les transitions et les animations.</small></span>
+            </label>
+          </li>
+        </ul>
+        <form method="dialog">
+          <button type="submit" class="btn">Fermer</button>
+        </form>
+      </div>
+    </dialog>
+  </body>
+</html>
