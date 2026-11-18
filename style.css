@@ -201,6 +201,7 @@ main,
 .top {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   padding-block: 1.5rem 1rem;
@@ -219,6 +220,7 @@ h1 {
 
 .prefs {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
 }
 
@@ -321,6 +323,8 @@ select {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .grow {
