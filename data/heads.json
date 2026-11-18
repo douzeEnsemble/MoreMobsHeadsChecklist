@@ -1,0 +1,4381 @@
+{
+  "datapack": {
+    "name": "More Mob Heads",
+    "version": "2.20.1",
+    "minecraft": "26.3",
+    "overlay": "107.1"
+  },
+  "heads": [
+    {
+      "id": "allay-allay-head",
+      "mob": "Allay",
+      "head": "Allay Head",
+      "image": "img/heads/allay-allay-head.png",
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Avant-postes de pillards (cages en chêne noir, 50 %), manoirs des bois (cellules, 50 %), à la génération"
+      },
+      "mating": {
+        "possible": false,
+        "text": "Pas d'accouplement : duplication avec un éclat d'améthyste près d'un jukebox"
+      }
+    },
+    {
+      "id": "armadillo-armadillo-head",
+      "mob": "Armadillo",
+      "head": "Armadillo Head",
+      "image": "img/heads/armadillo-armadillo-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.115
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Savane, plateau de savane, savane ventée (groupes de 2-3), badlands, badlands érodés et boisés (groupes de 1-2), lumière 9 ou plus"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Œil d'araignée"
+      }
+    },
+    {
+      "id": "axolotl-lucy-axolotl-head",
+      "mob": "Axolotl",
+      "head": "Lucy Axolotl Head",
+      "image": "img/heads/axolotl-lucy-axolotl-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : lucy"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Caves luxuriantes (sous l'eau, argile à moins de 5 blocs sous le spawn)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Seau de poisson tropical"
+      }
+    },
+    {
+      "id": "axolotl-wild-axolotl-head",
+      "mob": "Axolotl",
+      "head": "Wild Axolotl Head",
+      "image": "img/heads/axolotl-wild-axolotl-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : wild"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Caves luxuriantes (sous l'eau, argile à moins de 5 blocs sous le spawn)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Seau de poisson tropical"
+      }
+    },
+    {
+      "id": "axolotl-gold-axolotl-head",
+      "mob": "Axolotl",
+      "head": "Gold Axolotl Head",
+      "image": "img/heads/axolotl-gold-axolotl-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : gold"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Caves luxuriantes (sous l'eau, argile à moins de 5 blocs sous le spawn)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Seau de poisson tropical"
+      }
+    },
+    {
+      "id": "axolotl-cyan-axolotl-head",
+      "mob": "Axolotl",
+      "head": "Cyan Axolotl Head",
+      "image": "img/heads/axolotl-cyan-axolotl-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : cyan"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Caves luxuriantes (sous l'eau, argile à moins de 5 blocs sous le spawn)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Seau de poisson tropical"
+      }
+    },
+    {
+      "id": "axolotl-blue-axolotl-head",
+      "mob": "Axolotl",
+      "head": "Blue Axolotl Head",
+      "image": "img/heads/axolotl-blue-axolotl-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : blue"
+      },
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Reproduction uniquement (jamais naturel)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Seau de poisson tropical"
+      }
+    },
+    {
+      "id": "bat-bat-head",
+      "mob": "Bat",
+      "head": "Bat Head",
+      "image": "img/heads/bat-bat-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.16
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Overworld (sauf Deep Dark), lumière 3 ou moins, sur pierre, granite, diorite, andésite, tuf ou deepslate non exposés au ciel"
+      }
+    },
+    {
+      "id": "bee-bee-head",
+      "mob": "Bee",
+      "head": "Bee Head",
+      "image": "img/heads/bee-bee-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "calme, sans nectar"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.26
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Nids naturels (2-3 abeilles) : prairies (100 %), plaines, plaines de tournesols, bosquets de cerisiers, mangroves (5 %), forêts de fleurs (2 %), forêts (0,2 %)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Fleurs"
+      }
+    },
+    {
+      "id": "bee-pollinated-bee-head",
+      "mob": "Bee",
+      "head": "Pollinated Bee Head",
+      "image": "img/heads/bee-pollinated-bee-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "calme, avec nectar"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.26
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Nids naturels (2-3 abeilles) : prairies (100 %), plaines, plaines de tournesols, bosquets de cerisiers, mangroves (5 %), forêts de fleurs (2 %), forêts (0,2 %)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Fleurs"
+      }
+    },
+    {
+      "id": "bee-angry-bee-head",
+      "mob": "Bee",
+      "head": "Angry Bee Head",
+      "image": "img/heads/bee-angry-bee-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "énervée, sans nectar"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.26
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Nids naturels (2-3 abeilles) : prairies (100 %), plaines, plaines de tournesols, bosquets de cerisiers, mangroves (5 %), forêts de fleurs (2 %), forêts (0,2 %)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Fleurs"
+      }
+    },
+    {
+      "id": "bee-angry-pollinated-bee-head",
+      "mob": "Bee",
+      "head": "Angry Pollinated Bee Head",
+      "image": "img/heads/bee-angry-pollinated-bee-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "énervée, avec nectar"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.26
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Nids naturels (2-3 abeilles) : prairies (100 %), plaines, plaines de tournesols, bosquets de cerisiers, mangroves (5 %), forêts de fleurs (2 %), forêts (0,2 %)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Fleurs"
+      }
+    },
+    {
+      "id": "blaze-blaze-head",
+      "mob": "Blaze",
+      "head": "Blaze Head",
+      "image": "img/heads/blaze-blaze-head.png",
+      "rate": {
+        "base": 0.005,
+        "looting": 0.0065
+      },
+      "places": {
+        "dimensions": [
+          "nether"
+        ],
+        "text": "Forteresses du Nether (groupes de 2-3, lumière 11 ou moins), spawners"
+      }
+    },
+    {
+      "id": "bogged-bogged-head",
+      "mob": "Bogged",
+      "head": "Bogged Head",
+      "image": "img/heads/bogged-bogged-head.png",
+      "rate": {
+        "base": 0.06,
+        "looting": 0.21
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Marais et mangroves (lumière 0, ~30 % des squelettes), spawners des chambres d'épreuve"
+      }
+    },
+    {
+      "id": "breeze-breeze-head",
+      "mob": "Breeze",
+      "head": "Breeze Head",
+      "image": "img/heads/breeze-breeze-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.103
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Chambres d'épreuve (salles de combat uniquement)"
+      }
+    },
+    {
+      "id": "camel-camel-head",
+      "mob": "Camel",
+      "head": "Camel Head",
+      "image": "img/heads/camel-camel-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages du désert (1 chameau au centre), déserts (spawn rare)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cactus"
+      }
+    },
+    {
+      "id": "camel-husk-camel-husk-head",
+      "mob": "Camel Husk",
+      "head": "Camel Husk Head",
+      "image": "img/heads/camel-husk-camel-husk-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Désert : husk naturel monté sur un chameau husk, avec un parched en passager (10 % des husks en Java)"
+      }
+    },
+    {
+      "id": "cat-tabby-cat-head",
+      "mob": "Cat",
+      "head": "Tabby Cat Head",
+      "image": "img/heads/cat-tabby-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : tabby"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cat-tuxedo-cat-head",
+      "mob": "Cat",
+      "head": "Tuxedo Cat Head",
+      "image": "img/heads/cat-tuxedo-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : black"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cat-ginger-cat-head",
+      "mob": "Cat",
+      "head": "Ginger Cat Head",
+      "image": "img/heads/cat-ginger-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : red"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cat-siamese-cat-head",
+      "mob": "Cat",
+      "head": "Siamese Cat Head",
+      "image": "img/heads/cat-siamese-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : siamese"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cat-british-shorthair-cat-head",
+      "mob": "Cat",
+      "head": "British Shorthair Cat Head",
+      "image": "img/heads/cat-british-shorthair-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : british_shorthair"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cat-calico-cat-head",
+      "mob": "Cat",
+      "head": "Calico Cat Head",
+      "image": "img/heads/cat-calico-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : calico"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cat-persian-cat-head",
+      "mob": "Cat",
+      "head": "Persian Cat Head",
+      "image": "img/heads/cat-persian-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : persian"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cat-ragdoll-cat-head",
+      "mob": "Cat",
+      "head": "Ragdoll Cat Head",
+      "image": "img/heads/cat-ragdoll-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : ragdoll"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cat-white-cat-head",
+      "mob": "Cat",
+      "head": "White Cat Head",
+      "image": "img/heads/cat-white-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : white"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cat-jellie-cat-head",
+      "mob": "Cat",
+      "head": "Jellie Cat Head",
+      "image": "img/heads/cat-jellie-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : jellie"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cat-black-cat-head",
+      "mob": "Cat",
+      "head": "Black Cat Head",
+      "image": "img/heads/cat-black-cat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : all_black"
+      },
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages, cabanes de sorcières (chat noir)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru (animal apprivoisé)"
+      }
+    },
+    {
+      "id": "cave-spider-cave-spider-head",
+      "mob": "Cave Spider",
+      "head": "Cave Spider Head",
+      "image": "img/heads/cave-spider-cave-spider-head.png",
+      "rate": {
+        "base": 0.005,
+        "looting": 0.035
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Grottes de soufre (remplace les araignées), spawners des mines abandonnées et des chambres d'épreuve"
+      }
+    },
+    {
+      "id": "chicken-temperate-chicken-head",
+      "mob": "Chicken",
+      "head": "Temperate Chicken Head",
+      "image": "img/heads/chicken-temperate-chicken-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : temperate"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines (dont plaines de tournesols), forêts (dont forêts de fleurs, de bouleaux et sombres), marais"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Graines (blé, citrouille, pastèque, betterave, torchflower, pitcher)"
+      }
+    },
+    {
+      "id": "chicken-cold-chicken-head",
+      "mob": "Chicken",
+      "head": "Cold Chicken Head",
+      "image": "img/heads/chicken-cold-chicken-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : cold"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld",
+          "end"
+        ],
+        "text": "Taïgas (normale, enneigée, vieilles pinèdes et pessières), collines et forêts balayées par le vent, forêt mouchetée, plaines enneigées, pics de glace, montagnes gelées et rocheuses, pentes enneigées, bosquet, plage enneigée, océans froids et gelés, rivière gelée, Deep Dark, End"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Graines (blé, citrouille, pastèque, betterave, torchflower, pitcher)"
+      }
+    },
+    {
+      "id": "chicken-warm-chicken-head",
+      "mob": "Chicken",
+      "head": "Warm Chicken Head",
+      "image": "img/heads/chicken-warm-chicken-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : warm"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld",
+          "nether"
+        ],
+        "text": "Savanes, jungles, badlands, désert, mangroves, océans chauds et tièdes, Nether"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Graines (blé, citrouille, pastèque, betterave, torchflower, pitcher)"
+      }
+    },
+    {
+      "id": "cod-cod-head",
+      "mob": "Cod",
+      "head": "Cod Head",
+      "image": "img/heads/cod-cod-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Océans (normal, froid, tiède et variantes profondes), Y 50-64, groupes de 3-6"
+      }
+    },
+    {
+      "id": "copper-golem-copper-golem-head",
+      "mob": "Copper Golem",
+      "head": "Copper Golem Head",
+      "image": "img/heads/copper-golem-copper-golem-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : par défaut (tempéré)"
+      },
+      "rate": {
+        "base": 0.05,
+        "looting": 0.14
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Construit (bloc de cuivre + citrouille sculptée ou lanterne de citrouille posée en dernier)"
+      }
+    },
+    {
+      "id": "copper-golem-exposed-copper-golem-head",
+      "mob": "Copper Golem",
+      "head": "Exposed Copper Golem Head",
+      "image": "img/heads/copper-golem-exposed-copper-golem-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : exposed"
+      },
+      "rate": {
+        "base": 0.05,
+        "looting": 0.14
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Construit (bloc de cuivre + citrouille sculptée ou lanterne de citrouille posée en dernier)"
+      }
+    },
+    {
+      "id": "copper-golem-weathered-copper-golem-head",
+      "mob": "Copper Golem",
+      "head": "Weathered Copper Golem Head",
+      "image": "img/heads/copper-golem-weathered-copper-golem-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : weathered"
+      },
+      "rate": {
+        "base": 0.05,
+        "looting": 0.14
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Construit (bloc de cuivre + citrouille sculptée ou lanterne de citrouille posée en dernier)"
+      }
+    },
+    {
+      "id": "copper-golem-oxidized-copper-golem-head",
+      "mob": "Copper Golem",
+      "head": "Oxidized Copper Golem Head",
+      "image": "img/heads/copper-golem-oxidized-copper-golem-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : oxidized"
+      },
+      "rate": {
+        "base": 0.05,
+        "looting": 0.14
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Construit (bloc de cuivre + citrouille sculptée ou lanterne de citrouille posée en dernier)"
+      }
+    },
+    {
+      "id": "cow-temperate-cow-head",
+      "mob": "Cow",
+      "head": "Temperate Cow Head",
+      "image": "img/heads/cow-temperate-cow-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : par défaut (tempéré)"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines (dont plaines de tournesols), forêts (dont forêts de fleurs, de bouleaux et sombres), marais"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "cow-cold-cow-head",
+      "mob": "Cow",
+      "head": "Cold Cow Head",
+      "image": "img/heads/cow-cold-cow-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : cold"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld",
+          "end"
+        ],
+        "text": "Taïgas (normale, enneigée, vieilles pinèdes et pessières), collines et forêts balayées par le vent, forêt mouchetée, plaines enneigées, pics de glace, montagnes gelées et rocheuses, pentes enneigées, bosquet, plage enneigée, océans froids et gelés, rivière gelée, Deep Dark, End"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "cow-warm-cow-head",
+      "mob": "Cow",
+      "head": "Warm Cow Head",
+      "image": "img/heads/cow-warm-cow-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : warm"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld",
+          "nether"
+        ],
+        "text": "Savanes, jungles, badlands, désert, mangroves, océans chauds et tièdes, Nether"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "creaking-creaking-head",
+      "mob": "Creaking",
+      "head": "Creaking Head",
+      "image": "img/heads/creaking-creaking-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.115
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Forêt pâle, autour d'un cœur du creaking (nuit)"
+      }
+    },
+    {
+      "id": "creeper-charged-creeper-head",
+      "mob": "Creeper",
+      "head": "Charged Creeper Head",
+      "image": "img/heads/creeper-charged-creeper-head.png",
+      "condition": {
+        "kind": "charged",
+        "text": "creeper chargé"
+      },
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Surface et grottes (lumière 0), tous biomes de l'Overworld sauf champignons et Deep Dark"
+      }
+    },
+    {
+      "id": "dolphin-dolphin-head",
+      "mob": "Dolphin",
+      "head": "Dolphin Head",
+      "image": "img/heads/dolphin-dolphin-head.png",
+      "rate": {
+        "base": 0.33,
+        "looting": 0.39
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Océans (normal, profond, tiède, chaud), hors océans froids et gelés, Y 50-64, groupes de 1-2"
+      }
+    },
+    {
+      "id": "donkey-donkey-head",
+      "mob": "Donkey",
+      "head": "Donkey Head",
+      "image": "img/heads/donkey-donkey-head.png",
+      "rate": {
+        "base": 0.2,
+        "looting": 0.47
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Prairies (fréquent), plaines et plaines de tournesols (rare), savane, savane ventée, plateau de savane"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pomme dorée ou carotte dorée"
+      }
+    },
+    {
+      "id": "drowned-drowned-head",
+      "mob": "Drowned",
+      "head": "Drowned Head",
+      "image": "img/heads/drowned-drowned-head.png",
+      "rate": {
+        "base": 0.05,
+        "looting": 0.11
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Rivières (le plus fréquent), océans et caves à stalactites (Y 58 ou moins), ruines sous-marines"
+      }
+    },
+    {
+      "id": "elder-guardian-elder-guardian-head",
+      "mob": "Elder Guardian",
+      "head": "Elder Guardian Head",
+      "image": "img/heads/elder-guardian-elder-guardian-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Monuments océaniques (3 par monument, à la génération, pas de réapparition)"
+      }
+    },
+    {
+      "id": "enderman-enderman-head",
+      "mob": "Enderman",
+      "head": "Enderman Head",
+      "image": "img/heads/enderman-enderman-head.png",
+      "rate": {
+        "base": 0.005,
+        "looting": 0.0053
+      },
+      "places": {
+        "dimensions": [
+          "overworld",
+          "nether",
+          "end"
+        ],
+        "text": "Overworld (rare, lumière 0), Nether (surtout forêts biscornues), End (fréquent)"
+      }
+    },
+    {
+      "id": "endermite-endermite-head",
+      "mob": "Endermite",
+      "head": "Endermite Head",
+      "image": "img/heads/endermite-endermite-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Perles de l'Ender (5 % à l'impact)"
+      }
+    },
+    {
+      "id": "evoker-evoker-head",
+      "mob": "Evoker",
+      "head": "Evoker Head",
+      "image": "img/heads/evoker-evoker-head.png",
+      "rate": {
+        "base": 0.25,
+        "looting": 0.31
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Manoirs des bois (étages 2 et 3, à la génération), raids (vague 5 et +, Normal/Difficile)"
+      }
+    },
+    {
+      "id": "fox-fox-head",
+      "mob": "Fox",
+      "head": "Fox Head",
+      "image": "img/heads/fox-fox-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : red"
+      },
+      "rate": {
+        "base": 0.1,
+        "looting": 0.112
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Renard roux : taïgas (dont vieilles taïgas), forêt mouchetée ; renard des neiges : bosquet, taïga enneigée"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Baies sucrées ou baies lumineuses"
+      }
+    },
+    {
+      "id": "fox-snow-fox-head",
+      "mob": "Fox",
+      "head": "Snow Fox Head",
+      "image": "img/heads/fox-snow-fox-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : snow"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.212
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Renard roux : taïgas (dont vieilles taïgas), forêt mouchetée ; renard des neiges : bosquet, taïga enneigée"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Baies sucrées ou baies lumineuses"
+      }
+    },
+    {
+      "id": "frog-cold-frog-head",
+      "mob": "Frog",
+      "head": "Cold Frog Head",
+      "image": "img/heads/frog-cold-frog-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : cold"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Marais, mangroves (variante selon le biome)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Boule de slime"
+      }
+    },
+    {
+      "id": "frog-temperate-frog-head",
+      "mob": "Frog",
+      "head": "Temperate Frog Head",
+      "image": "img/heads/frog-temperate-frog-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : temperate"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Marais, mangroves (variante selon le biome)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Boule de slime"
+      }
+    },
+    {
+      "id": "frog-warm-frog-head",
+      "mob": "Frog",
+      "head": "Warm Frog Head",
+      "image": "img/heads/frog-warm-frog-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : warm"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Marais, mangroves (variante selon le biome)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Boule de slime"
+      }
+    },
+    {
+      "id": "ghast-ghast-head",
+      "mob": "Ghast",
+      "head": "Ghast Head",
+      "image": "img/heads/ghast-ghast-head.png",
+      "rate": {
+        "base": 0.0625,
+        "looting": 0.1
+      },
+      "places": {
+        "dimensions": [
+          "nether"
+        ],
+        "text": "Nether (vallée des âmes, déchets, deltas de basalte)"
+      }
+    },
+    {
+      "id": "glow-squid-glow-squid-head",
+      "mob": "Glow Squid",
+      "head": "Glow Squid Head",
+      "image": "img/heads/glow-squid-glow-squid-head.png",
+      "rate": {
+        "base": 0.05,
+        "looting": 0.08
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Eaux sombres sous Y 30 (lumière 0), tous biomes sauf grottes de soufre et Deep Dark"
+      }
+    },
+    {
+      "id": "goat-goat-head",
+      "mob": "Goat",
+      "head": "Goat Head",
+      "image": "img/heads/goat-goat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "chèvre normale"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Pentes enneigées, pics déchiquetés, pics gelés (chèvre hurlante : 2 %)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "goat-screaming-goat-head",
+      "mob": "Goat",
+      "head": "Screaming Goat Head",
+      "image": "img/heads/goat-screaming-goat-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "chèvre hurlante"
+      },
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Pentes enneigées, pics déchiquetés, pics gelés (chèvre hurlante : 2 %)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "guardian-guardian-head",
+      "mob": "Guardian",
+      "head": "Guardian Head",
+      "image": "img/heads/guardian-guardian-head.png",
+      "rate": {
+        "base": 0.005,
+        "looting": 0.008
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Monuments océaniques"
+      }
+    },
+    {
+      "id": "happy-ghast-happy-ghast-head",
+      "mob": "Happy Ghast",
+      "head": "Happy Ghast Head",
+      "image": "img/heads/happy-ghast-happy-ghast-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Bloc de ghast séché mis dans l'eau (~20 min), ghastling qui grandit"
+      },
+      "mating": {
+        "possible": false,
+        "text": "Impossible (vient d'un ghast desséché)"
+      }
+    },
+    {
+      "id": "hoglin-hoglin-head",
+      "mob": "Hoglin",
+      "head": "Hoglin Head",
+      "image": "img/heads/hoglin-hoglin-head.png",
+      "rate": {
+        "base": 0.03,
+        "looting": 0.09
+      },
+      "places": {
+        "dimensions": [
+          "overworld",
+          "nether"
+        ],
+        "text": "Forêt pourpre (troupeaux de 3-4), bastions (à la génération)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Champignon pourpre"
+      }
+    },
+    {
+      "id": "horse-white-horse-head",
+      "mob": "Horse",
+      "head": "White Horse Head",
+      "image": "img/heads/horse-white-horse-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : white"
+      },
+      "rate": {
+        "base": 0.27,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines, plaines de tournesols, savane, plateau de savane, savane ventée, villages (écuries)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pomme dorée ou carotte dorée"
+      }
+    },
+    {
+      "id": "horse-creamy-horse-head",
+      "mob": "Horse",
+      "head": "Creamy Horse Head",
+      "image": "img/heads/horse-creamy-horse-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : creamy"
+      },
+      "rate": {
+        "base": 0.27,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines, plaines de tournesols, savane, plateau de savane, savane ventée, villages (écuries)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pomme dorée ou carotte dorée"
+      }
+    },
+    {
+      "id": "horse-chestnut-horse-head",
+      "mob": "Horse",
+      "head": "Chestnut Horse Head",
+      "image": "img/heads/horse-chestnut-horse-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : chestnut"
+      },
+      "rate": {
+        "base": 0.27,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines, plaines de tournesols, savane, plateau de savane, savane ventée, villages (écuries)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pomme dorée ou carotte dorée"
+      }
+    },
+    {
+      "id": "horse-brown-horse-head",
+      "mob": "Horse",
+      "head": "Brown Horse Head",
+      "image": "img/heads/horse-brown-horse-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : brown"
+      },
+      "rate": {
+        "base": 0.27,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines, plaines de tournesols, savane, plateau de savane, savane ventée, villages (écuries)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pomme dorée ou carotte dorée"
+      }
+    },
+    {
+      "id": "horse-black-horse-head",
+      "mob": "Horse",
+      "head": "Black Horse Head",
+      "image": "img/heads/horse-black-horse-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : black"
+      },
+      "rate": {
+        "base": 0.27,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines, plaines de tournesols, savane, plateau de savane, savane ventée, villages (écuries)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pomme dorée ou carotte dorée"
+      }
+    },
+    {
+      "id": "horse-gray-horse-head",
+      "mob": "Horse",
+      "head": "Gray Horse Head",
+      "image": "img/heads/horse-gray-horse-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : gray"
+      },
+      "rate": {
+        "base": 0.27,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines, plaines de tournesols, savane, plateau de savane, savane ventée, villages (écuries)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pomme dorée ou carotte dorée"
+      }
+    },
+    {
+      "id": "horse-dark-brown-horse-head",
+      "mob": "Horse",
+      "head": "Dark Brown Horse Head",
+      "image": "img/heads/horse-dark-brown-horse-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : dark_brown"
+      },
+      "rate": {
+        "base": 0.27,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines, plaines de tournesols, savane, plateau de savane, savane ventée, villages (écuries)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pomme dorée ou carotte dorée"
+      }
+    },
+    {
+      "id": "husk-husk-head",
+      "mob": "Husk",
+      "head": "Husk Head",
+      "image": "img/heads/husk-husk-head.png",
+      "rate": {
+        "base": 0.06,
+        "looting": 0.09
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Désert (surface, lumière du ciel 15), chambres d'épreuve"
+      }
+    },
+    {
+      "id": "illusioner-illusioner-head",
+      "mob": "Illusioner",
+      "head": "Illusioner Head",
+      "image": "img/heads/illusioner-illusioner-head.png",
+      "rate": {
+        "base": 0.25,
+        "looting": 0.31
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Aucun spawn naturel (commandes)"
+      }
+    },
+    {
+      "id": "iron-golem-iron-golem-head",
+      "mob": "Iron Golem",
+      "head": "Iron Golem Head",
+      "image": "img/heads/iron-golem-iron-golem-head.png",
+      "rate": {
+        "base": 0.05,
+        "looting": 0.095
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (invoqués par les villageois), avant-postes de pillards (en cage), ou construit"
+      }
+    },
+    {
+      "id": "llama-creamy-llama-head",
+      "mob": "Llama",
+      "head": "Creamy Llama Head",
+      "image": "img/heads/llama-creamy-llama-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : creamy"
+      },
+      "rate": {
+        "base": 0.24,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plateau de savane, collines ventées, forêt ventée, collines gravillonneuses ventées"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Botte de foin"
+      }
+    },
+    {
+      "id": "llama-white-llama-head",
+      "mob": "Llama",
+      "head": "White Llama Head",
+      "image": "img/heads/llama-white-llama-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : white"
+      },
+      "rate": {
+        "base": 0.24,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plateau de savane, collines ventées, forêt ventée, collines gravillonneuses ventées"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Botte de foin"
+      }
+    },
+    {
+      "id": "llama-brown-llama-head",
+      "mob": "Llama",
+      "head": "Brown Llama Head",
+      "image": "img/heads/llama-brown-llama-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : brown"
+      },
+      "rate": {
+        "base": 0.24,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plateau de savane, collines ventées, forêt ventée, collines gravillonneuses ventées"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Botte de foin"
+      }
+    },
+    {
+      "id": "llama-gray-llama-head",
+      "mob": "Llama",
+      "head": "Gray Llama Head",
+      "image": "img/heads/llama-gray-llama-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : gray"
+      },
+      "rate": {
+        "base": 0.24,
+        "looting": 0.3
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plateau de savane, collines ventées, forêt ventée, collines gravillonneuses ventées"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Botte de foin"
+      }
+    },
+    {
+      "id": "magma-cube-magma-cube-head",
+      "mob": "Magma Cube",
+      "head": "Magma Cube Head",
+      "image": "img/heads/magma-cube-magma-cube-head.png",
+      "rate": {
+        "base": 0.005,
+        "looting": 0.008
+      },
+      "places": {
+        "dimensions": [
+          "nether"
+        ],
+        "text": "Deltas de basalte, forteresses, déchets du Nether ; spawners dans les bastions"
+      }
+    },
+    {
+      "id": "mooshroom-red-mooshroom-head",
+      "mob": "Mooshroom",
+      "head": "Red Mooshroom Head",
+      "image": "img/heads/mooshroom-red-mooshroom-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : red"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Îles champignons"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "mooshroom-brown-mooshroom-head",
+      "mob": "Mooshroom",
+      "head": "Brown Mooshroom Head",
+      "image": "img/heads/mooshroom-brown-mooshroom-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : brown"
+      },
+      "rate": {
+        "base": 0.1,
+        "looting": 0.103
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Îles champignons"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "mule-mule-head",
+      "mob": "Mule",
+      "head": "Mule Head",
+      "image": "img/heads/mule-mule-head.png",
+      "rate": {
+        "base": 0.2,
+        "looting": 0.35
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Aucun spawn naturel (âne × cheval)"
+      },
+      "mating": {
+        "possible": false,
+        "text": "Stérile"
+      }
+    },
+    {
+      "id": "nautilus-nautilus-shell",
+      "mob": "Nautilus",
+      "head": "Nautilus Shell",
+      "image": "img/heads/nautilus-nautilus-shell.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Tous les océans (surtout océan chaud), Y 38-58, groupes de 1-3"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Poisson (cabillaud, saumon, poisson-globe, poisson tropical), nautilus apprivoisé (?)"
+      }
+    },
+    {
+      "id": "ocelot-ocelot-head",
+      "mob": "Ocelot",
+      "head": "Ocelot Head",
+      "image": "img/heads/ocelot-ocelot-head.png",
+      "rate": {
+        "base": 0.2,
+        "looting": 0.26
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungles"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Cabillaud ou saumon cru"
+      }
+    },
+    {
+      "id": "panda-aggressive-panda-head",
+      "mob": "Panda",
+      "head": "Aggressive Panda Head",
+      "image": "img/heads/panda-aggressive-panda-head.png",
+      "rate": {
+        "base": 0.27,
+        "looting": 0.282
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungle de bambou (fréquent), jungle (très rare), groupes de 1-2"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Bambou"
+      }
+    },
+    {
+      "id": "panda-lazy-panda-head",
+      "mob": "Panda",
+      "head": "Lazy Panda Head",
+      "image": "img/heads/panda-lazy-panda-head.png",
+      "rate": {
+        "base": 0.27,
+        "looting": 0.282
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungle de bambou (fréquent), jungle (très rare), groupes de 1-2"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Bambou"
+      }
+    },
+    {
+      "id": "panda-playful-panda-head",
+      "mob": "Panda",
+      "head": "Playful Panda Head",
+      "image": "img/heads/panda-playful-panda-head.png",
+      "rate": {
+        "base": 0.27,
+        "looting": 0.282
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungle de bambou (fréquent), jungle (très rare), groupes de 1-2"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Bambou"
+      }
+    },
+    {
+      "id": "panda-worried-panda-head",
+      "mob": "Panda",
+      "head": "Worried Panda Head",
+      "image": "img/heads/panda-worried-panda-head.png",
+      "rate": {
+        "base": 0.27,
+        "looting": 0.282
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungle de bambou (fréquent), jungle (très rare), groupes de 1-2"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Bambou"
+      }
+    },
+    {
+      "id": "panda-brown-panda-head",
+      "mob": "Panda",
+      "head": "Brown Panda Head",
+      "image": "img/heads/panda-brown-panda-head.png",
+      "rate": {
+        "base": 0.27,
+        "looting": 0.282
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungle de bambou (fréquent), jungle (très rare), groupes de 1-2"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Bambou"
+      }
+    },
+    {
+      "id": "panda-weak-panda-head",
+      "mob": "Panda",
+      "head": "Weak Panda Head",
+      "image": "img/heads/panda-weak-panda-head.png",
+      "rate": {
+        "base": 0.27,
+        "looting": 0.282
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungle de bambou (fréquent), jungle (très rare), groupes de 1-2"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Bambou"
+      }
+    },
+    {
+      "id": "panda-panda-head",
+      "mob": "Panda",
+      "head": "Panda Head",
+      "image": "img/heads/panda-panda-head.png",
+      "rate": {
+        "base": 0.27,
+        "looting": 0.282
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungle de bambou (fréquent), jungle (très rare), groupes de 1-2"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Bambou"
+      }
+    },
+    {
+      "id": "parched-parched-head",
+      "mob": "Parched",
+      "head": "Parched Head",
+      "image": "img/heads/parched-parched-head.png",
+      "rate": {
+        "base": 0.06,
+        "looting": 0.21
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Désert (surface, la nuit ou pendant les orages)"
+      }
+    },
+    {
+      "id": "parrot-red-parrot-head",
+      "mob": "Parrot",
+      "head": "Red Parrot Head",
+      "image": "img/heads/parrot-red-parrot-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : red_blue"
+      },
+      "rate": {
+        "base": 0.25,
+        "looting": 0.31
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungles et jungles de bambou"
+      }
+    },
+    {
+      "id": "parrot-blue-parrot-head",
+      "mob": "Parrot",
+      "head": "Blue Parrot Head",
+      "image": "img/heads/parrot-blue-parrot-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : blue"
+      },
+      "rate": {
+        "base": 0.25,
+        "looting": 0.31
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungles et jungles de bambou"
+      }
+    },
+    {
+      "id": "parrot-green-parrot-head",
+      "mob": "Parrot",
+      "head": "Green Parrot Head",
+      "image": "img/heads/parrot-green-parrot-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : green"
+      },
+      "rate": {
+        "base": 0.25,
+        "looting": 0.31
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungles et jungles de bambou"
+      }
+    },
+    {
+      "id": "parrot-light-blue-parrot-head",
+      "mob": "Parrot",
+      "head": "Light Blue Parrot Head",
+      "image": "img/heads/parrot-light-blue-parrot-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : yellow_blue"
+      },
+      "rate": {
+        "base": 0.25,
+        "looting": 0.31
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungles et jungles de bambou"
+      }
+    },
+    {
+      "id": "parrot-gray-parrot-head",
+      "mob": "Parrot",
+      "head": "Gray Parrot Head",
+      "image": "img/heads/parrot-gray-parrot-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : gray"
+      },
+      "rate": {
+        "base": 0.25,
+        "looting": 0.31
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungles et jungles de bambou"
+      }
+    },
+    {
+      "id": "phantom-phantom-head",
+      "mob": "Phantom",
+      "head": "Phantom Head",
+      "image": "img/heads/phantom-phantom-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Ciel visible au-dessus du joueur (nuit ou orage, Y>62), après 3 jours sans dormir"
+      }
+    },
+    {
+      "id": "pig-temperate-pig-head",
+      "mob": "Pig",
+      "head": "Temperate Pig Head",
+      "image": "img/heads/pig-temperate-pig-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : par défaut (tempéré)"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines (dont plaines de tournesols), forêts (dont forêts de fleurs, de bouleaux et sombres), marais, bosquets de cerisiers"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, pomme de terre ou betterave"
+      }
+    },
+    {
+      "id": "pig-cold-pig-head",
+      "mob": "Pig",
+      "head": "Cold Pig Head",
+      "image": "img/heads/pig-cold-pig-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : cold"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld",
+          "end"
+        ],
+        "text": "Taïgas (normale, enneigée, vieilles pinèdes et pessières), collines et forêts balayées par le vent, forêt mouchetée, plaines enneigées, pics de glace, montagnes gelées et rocheuses, pentes enneigées, bosquet, plage enneigée, océans froids et gelés, rivière gelée, Deep Dark, End"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, pomme de terre ou betterave"
+      }
+    },
+    {
+      "id": "pig-warm-pig-head",
+      "mob": "Pig",
+      "head": "Warm Pig Head",
+      "image": "img/heads/pig-warm-pig-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : warm"
+      },
+      "rate": {
+        "base": 0.01,
+        "looting": 0.013
+      },
+      "places": {
+        "dimensions": [
+          "overworld",
+          "nether"
+        ],
+        "text": "Savanes, jungles, badlands, désert, mangroves, océans chauds et tièdes, Nether"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, pomme de terre ou betterave"
+      }
+    },
+    {
+      "id": "piglin-brute-piglin-brute-head",
+      "mob": "Piglin Brute",
+      "head": "Piglin Brute Head",
+      "image": "img/heads/piglin-brute-piglin-brute-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [
+          "nether"
+        ],
+        "text": "Bastions (à la génération uniquement)"
+      }
+    },
+    {
+      "id": "pillager-pillager-head",
+      "mob": "Pillager",
+      "head": "Pillager Head",
+      "image": "img/heads/pillager-pillager-head.png",
+      "rate": {
+        "base": 0.025,
+        "looting": 0.04
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Avant-postes de pillards, patrouilles, raids"
+      }
+    },
+    {
+      "id": "polar-bear-polar-bear-head",
+      "mob": "Polar Bear",
+      "head": "Polar Bear Head",
+      "image": "img/heads/polar-bear-polar-bear-head.png",
+      "rate": {
+        "base": 0.2,
+        "looting": 0.35
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines enneigées, océans gelés et gelés profonds (pics de glace : à vérifier)"
+      }
+    },
+    {
+      "id": "pufferfish-pufferfish-head",
+      "mob": "Pufferfish",
+      "head": "Pufferfish Head",
+      "image": "img/heads/pufferfish-pufferfish-head.png",
+      "rate": {
+        "base": 0.15,
+        "looting": 0.18
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Océans tièdes et chauds"
+      }
+    },
+    {
+      "id": "rabbit-toast-rabbit-head",
+      "mob": "Rabbit",
+      "head": "Toast Rabbit Head",
+      "image": "img/heads/rabbit-toast-rabbit-head.png",
+      "condition": {
+        "kind": "name",
+        "text": "lapin nommé « Toast »"
+      },
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Désert, plaines, taïga enneigée, badlands"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, carotte dorée ou pissenlit"
+      }
+    },
+    {
+      "id": "rabbit-brown-rabbit-head",
+      "mob": "Rabbit",
+      "head": "Brown Rabbit Head",
+      "image": "img/heads/rabbit-brown-rabbit-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : brown"
+      },
+      "rate": {
+        "base": 0.26,
+        "looting": 0.41
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Forêt de fleurs, taïgas, prairies, bosquets de cerisiers, forêt mouchetée"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, carotte dorée ou pissenlit"
+      }
+    },
+    {
+      "id": "rabbit-white-rabbit-head",
+      "mob": "Rabbit",
+      "head": "White Rabbit Head",
+      "image": "img/heads/rabbit-white-rabbit-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : white"
+      },
+      "rate": {
+        "base": 0.26,
+        "looting": 0.41
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines enneigées, pics de glace, taïga enneigée, bosquet, pentes enneigées"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, carotte dorée ou pissenlit"
+      }
+    },
+    {
+      "id": "rabbit-black-rabbit-head",
+      "mob": "Rabbit",
+      "head": "Black Rabbit Head",
+      "image": "img/heads/rabbit-black-rabbit-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : black"
+      },
+      "rate": {
+        "base": 0.26,
+        "looting": 0.41
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Forêt de fleurs, taïgas, prairies, bosquets de cerisiers, forêt mouchetée"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, carotte dorée ou pissenlit"
+      }
+    },
+    {
+      "id": "rabbit-black-and-white-rabbit-head",
+      "mob": "Rabbit",
+      "head": "Black and White Rabbit Head",
+      "image": "img/heads/rabbit-black-and-white-rabbit-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : white_splotched"
+      },
+      "rate": {
+        "base": 0.26,
+        "looting": 0.41
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines enneigées, pics de glace, taïga enneigée, bosquet, pentes enneigées"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, carotte dorée ou pissenlit"
+      }
+    },
+    {
+      "id": "rabbit-gold-rabbit-head",
+      "mob": "Rabbit",
+      "head": "Gold Rabbit Head",
+      "image": "img/heads/rabbit-gold-rabbit-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : gold"
+      },
+      "rate": {
+        "base": 0.26,
+        "looting": 0.41
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Désert"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, carotte dorée ou pissenlit"
+      }
+    },
+    {
+      "id": "rabbit-salt-and-pepper-rabbit-head",
+      "mob": "Rabbit",
+      "head": "Salt and Pepper Rabbit Head",
+      "image": "img/heads/rabbit-salt-and-pepper-rabbit-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : salt"
+      },
+      "rate": {
+        "base": 0.26,
+        "looting": 0.41
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Forêt de fleurs, taïgas, prairies, bosquets de cerisiers, forêt mouchetée"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, carotte dorée ou pissenlit"
+      }
+    },
+    {
+      "id": "rabbit-the-killer-bunny-head",
+      "mob": "Rabbit",
+      "head": "The Killer Bunny Head",
+      "image": "img/heads/rabbit-the-killer-bunny-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : evil"
+      },
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Aucun spawn naturel (commandes)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Carotte, carotte dorée ou pissenlit"
+      }
+    },
+    {
+      "id": "ravager-ravager-head",
+      "mob": "Ravager",
+      "head": "Ravager Head",
+      "image": "img/heads/ravager-ravager-head.png",
+      "rate": {
+        "base": 0.25,
+        "looting": 0.31
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Raids (à partir de la vague 3), peut rejoindre une patrouille"
+      }
+    },
+    {
+      "id": "salmon-salmon-head",
+      "mob": "Salmon",
+      "head": "Salmon Head",
+      "image": "img/heads/salmon-salmon-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Rivières (dont gelées), océans froids et gelés (variantes profondes incluses), Y 50-64"
+      }
+    },
+    {
+      "id": "sheep-black-sheep-head",
+      "mob": "Sheep",
+      "head": "Black Sheep Head",
+      "image": "img/heads/sheep-black-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-blue-sheep-head",
+      "mob": "Sheep",
+      "head": "Blue Sheep Head",
+      "image": "img/heads/sheep-blue-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-brown-sheep-head",
+      "mob": "Sheep",
+      "head": "Brown Sheep Head",
+      "image": "img/heads/sheep-brown-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-cyan-sheep-head",
+      "mob": "Sheep",
+      "head": "Cyan Sheep Head",
+      "image": "img/heads/sheep-cyan-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-gray-sheep-head",
+      "mob": "Sheep",
+      "head": "Gray Sheep Head",
+      "image": "img/heads/sheep-gray-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-green-sheep-head",
+      "mob": "Sheep",
+      "head": "Green Sheep Head",
+      "image": "img/heads/sheep-green-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-jeb-sheep-head",
+      "mob": "Sheep",
+      "head": "jeb_ Sheep Head",
+      "image": "img/heads/sheep-jeb-sheep-head.png",
+      "condition": {
+        "kind": "name",
+        "text": "mouton nommé « jeb_ » (tué par un joueur)"
+      },
+      "rate": {
+        "base": 0.1,
+        "looting": 0.25
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-light-blue-sheep-head",
+      "mob": "Sheep",
+      "head": "Light Blue Sheep Head",
+      "image": "img/heads/sheep-light-blue-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-light-gray-sheep-head",
+      "mob": "Sheep",
+      "head": "Light Gray Sheep Head",
+      "image": "img/heads/sheep-light-gray-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-lime-sheep-head",
+      "mob": "Sheep",
+      "head": "Lime Sheep Head",
+      "image": "img/heads/sheep-lime-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-magenta-sheep-head",
+      "mob": "Sheep",
+      "head": "Magenta Sheep Head",
+      "image": "img/heads/sheep-magenta-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-orange-sheep-head",
+      "mob": "Sheep",
+      "head": "Orange Sheep Head",
+      "image": "img/heads/sheep-orange-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-pink-sheep-head",
+      "mob": "Sheep",
+      "head": "Pink Sheep Head",
+      "image": "img/heads/sheep-pink-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-purple-sheep-head",
+      "mob": "Sheep",
+      "head": "Purple Sheep Head",
+      "image": "img/heads/sheep-purple-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-red-sheep-head",
+      "mob": "Sheep",
+      "head": "Red Sheep Head",
+      "image": "img/heads/sheep-red-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-white-sheep-head",
+      "mob": "Sheep",
+      "head": "White Sheep Head",
+      "image": "img/heads/sheep-white-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "sheep-yellow-sheep-head",
+      "mob": "Sheep",
+      "head": "Yellow Sheep Head",
+      "image": "img/heads/sheep-yellow-sheep-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "mouton de cette couleur, non tondu"
+      },
+      "rate": {
+        "base": 0.0175,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Herbe de la plupart des biomes de surface (plaines, forêts, taïgas, savanes, marais, jungles…), villages"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Blé"
+      }
+    },
+    {
+      "id": "shulker-shulker-head",
+      "mob": "Shulker",
+      "head": "Shulker Head",
+      "image": "img/heads/shulker-shulker-head.png",
+      "rate": {
+        "base": 0.05,
+        "looting": 0.08
+      },
+      "places": {
+        "dimensions": [
+          "end"
+        ],
+        "text": "Cités de l'End"
+      }
+    },
+    {
+      "id": "silverfish-silverfish-head",
+      "mob": "Silverfish",
+      "head": "Silverfish Head",
+      "image": "img/heads/silverfish-silverfish-head.png",
+      "rate": {
+        "base": 0.05,
+        "looting": 0.08
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Blocs infestés (forteresses, montagnes, collines ventées, caves d'igloos, manoirs des bois), chambres d'épreuve"
+      }
+    },
+    {
+      "id": "skeleton-horse-skeleton-horse-head",
+      "mob": "Skeleton Horse",
+      "head": "Skeleton Horse Head",
+      "image": "img/heads/skeleton-horse-skeleton-horse-head.png",
+      "rate": {
+        "base": 0.2,
+        "looting": 0.35
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Piège à cheval squelette (orage)"
+      }
+    },
+    {
+      "id": "slime-slime-head",
+      "mob": "Slime",
+      "head": "Slime Head",
+      "image": "img/heads/slime-slime-head.png",
+      "rate": {
+        "base": 0.005,
+        "looting": 0.008
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Marais et mangroves (Y 51-69, lumière 7 ou moins, plus fréquent à la pleine lune), chunks à slimes (sous Y 40), chambres d'épreuve"
+      }
+    },
+    {
+      "id": "sniffer-sniffer-head",
+      "mob": "Sniffer",
+      "head": "Sniffer Head",
+      "image": "img/heads/sniffer-sniffer-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Œuf de sniffer (sable suspect des ruines chaudes), élevage aux graines de torche"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Graines de torchflower"
+      }
+    },
+    {
+      "id": "snow-golem-snow-golem-head",
+      "mob": "Snow Golem",
+      "head": "Snow Golem Head",
+      "image": "img/heads/snow-golem-snow-golem-head.png",
+      "rate": {
+        "base": 0.05,
+        "looting": 0.08
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Construit (neige + citrouille)"
+      }
+    },
+    {
+      "id": "spider-spider-head",
+      "mob": "Spider",
+      "head": "Spider Head",
+      "image": "img/heads/spider-spider-head.png",
+      "rate": {
+        "base": 0.005,
+        "looting": 0.008
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Surface et grottes (lumière 0), tous biomes sauf champignons et Deep Dark ; spawners"
+      }
+    },
+    {
+      "id": "squid-squid-head",
+      "mob": "Squid",
+      "head": "Squid Head",
+      "image": "img/heads/squid-squid-head.png",
+      "rate": {
+        "base": 0.05,
+        "looting": 0.08
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Océans, rivières"
+      }
+    },
+    {
+      "id": "stray-stray-head",
+      "mob": "Stray",
+      "head": "Stray Head",
+      "image": "img/heads/stray-stray-head.png",
+      "rate": {
+        "base": 0.06,
+        "looting": 0.21
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plaines enneigées, pics de glace, grottes de glace (à venir)"
+      }
+    },
+    {
+      "id": "strider-strider-head",
+      "mob": "Strider",
+      "head": "Strider Head",
+      "image": "img/heads/strider-strider-head.png",
+      "condition": {
+        "kind": "other",
+        "text": "lot à 10 %, puis 1 tête sur 2 (tirage indépendant du biome)"
+      },
+      "rate": {
+        "base": 0.05,
+        "looting": 0.125
+      },
+      "places": {
+        "dimensions": [
+          "nether"
+        ],
+        "text": "Lave (air au-dessus) dans tout le Nether"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Champignon biscornu"
+      }
+    },
+    {
+      "id": "strider-cold-strider-head",
+      "mob": "Strider",
+      "head": "Cold Strider Head",
+      "image": "img/heads/strider-cold-strider-head.png",
+      "condition": {
+        "kind": "other",
+        "text": "lot à 10 %, puis 1 tête sur 2 (tirage indépendant du biome)"
+      },
+      "rate": {
+        "base": 0.05,
+        "looting": 0.125
+      },
+      "places": {
+        "dimensions": [
+          "nether"
+        ],
+        "text": "Lave (air au-dessus) dans tout le Nether"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Champignon biscornu"
+      }
+    },
+    {
+      "id": "sulfur-cube-sulfur-cube-head",
+      "mob": "Sulfur Cube",
+      "head": "Sulfur Cube Head",
+      "image": "img/heads/sulfur-cube-sulfur-cube-head.png",
+      "rate": {
+        "base": 0.01,
+        "looting": 0.025
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Grottes de soufre (gros cubes, toute lumière) ; petits cubes issus de la division"
+      },
+      "mating": {
+        "possible": false,
+        "text": "Pas d'accouplement : se divise quand on le tue (?)"
+      }
+    },
+    {
+      "id": "tadpole-tadpole-head",
+      "mob": "Tadpole",
+      "head": "Tadpole Head",
+      "image": "img/heads/tadpole-tadpole-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Éclosion de frai de grenouille (groupes de 2-5), seau d'eau"
+      }
+    },
+    {
+      "id": "trader-llama-creamy-trader-llama-head",
+      "mob": "Trader Llama",
+      "head": "Creamy Trader Llama Head",
+      "image": "img/heads/trader-llama-creamy-trader-llama-head.png",
+      "rate": {
+        "base": 0.24,
+        "looting": 0.45
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Accompagne le marchand ambulant"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Botte de foin"
+      }
+    },
+    {
+      "id": "trader-llama-white-trader-llama-head",
+      "mob": "Trader Llama",
+      "head": "White Trader Llama Head",
+      "image": "img/heads/trader-llama-white-trader-llama-head.png",
+      "rate": {
+        "base": 0.24,
+        "looting": 0.45
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Accompagne le marchand ambulant"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Botte de foin"
+      }
+    },
+    {
+      "id": "trader-llama-brown-trader-llama-head",
+      "mob": "Trader Llama",
+      "head": "Brown Trader Llama Head",
+      "image": "img/heads/trader-llama-brown-trader-llama-head.png",
+      "rate": {
+        "base": 0.24,
+        "looting": 0.45
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Accompagne le marchand ambulant"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Botte de foin"
+      }
+    },
+    {
+      "id": "trader-llama-gray-trader-llama-head",
+      "mob": "Trader Llama",
+      "head": "Gray Trader Llama Head",
+      "image": "img/heads/trader-llama-gray-trader-llama-head.png",
+      "rate": {
+        "base": 0.24,
+        "looting": 0.45
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Accompagne le marchand ambulant"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Botte de foin"
+      }
+    },
+    {
+      "id": "tropical-fish-tropical-fish-head",
+      "mob": "Tropical Fish",
+      "head": "Tropical Fish Head",
+      "image": "img/heads/tropical-fish-tropical-fish-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Océans tièdes et chauds (variantes profondes), mangroves (Y 50-63), caves luxuriantes (aquifères), groupes de 8"
+      }
+    },
+    {
+      "id": "turtle-turtle-head",
+      "mob": "Turtle",
+      "head": "Turtle Head",
+      "image": "img/heads/turtle-turtle-head.png",
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plages de sable (ni plages enneigées ni rivages rocheux), groupes jusqu'à 5"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Herbe marine"
+      }
+    },
+    {
+      "id": "vex-vex-head",
+      "mob": "Vex",
+      "head": "Vex Head",
+      "image": "img/heads/vex-vex-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "2 variantes de son (ambient / charge), 5 % chacune"
+      },
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Invoqué par un evoker"
+      }
+    },
+    {
+      "id": "villager-armorer-villager-head",
+      "mob": "Villager",
+      "head": "Armorer Villager Head",
+      "image": "img/heads/villager-armorer-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-butcher-villager-head",
+      "mob": "Villager",
+      "head": "Butcher Villager Head",
+      "image": "img/heads/villager-butcher-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-cartographer-villager-head",
+      "mob": "Villager",
+      "head": "Cartographer Villager Head",
+      "image": "img/heads/villager-cartographer-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-cleric-villager-head",
+      "mob": "Villager",
+      "head": "Cleric Villager Head",
+      "image": "img/heads/villager-cleric-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-farmer-villager-head",
+      "mob": "Villager",
+      "head": "Farmer Villager Head",
+      "image": "img/heads/villager-farmer-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-fisherman-villager-head",
+      "mob": "Villager",
+      "head": "Fisherman Villager Head",
+      "image": "img/heads/villager-fisherman-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-fletcher-villager-head",
+      "mob": "Villager",
+      "head": "Fletcher Villager Head",
+      "image": "img/heads/villager-fletcher-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-leatherworker-villager-head",
+      "mob": "Villager",
+      "head": "Leatherworker Villager Head",
+      "image": "img/heads/villager-leatherworker-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-librarian-villager-head",
+      "mob": "Villager",
+      "head": "Librarian Villager Head",
+      "image": "img/heads/villager-librarian-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-mason-villager-head",
+      "mob": "Villager",
+      "head": "Mason Villager Head",
+      "image": "img/heads/villager-mason-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-nitwit-villager-head",
+      "mob": "Villager",
+      "head": "Nitwit Villager Head",
+      "image": "img/heads/villager-nitwit-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-villager-head",
+      "mob": "Villager",
+      "head": "Villager Head",
+      "image": "img/heads/villager-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-shepherd-villager-head",
+      "mob": "Villager",
+      "head": "Shepherd Villager Head",
+      "image": "img/heads/villager-shepherd-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-toolsmith-villager-head",
+      "mob": "Villager",
+      "head": "Toolsmith Villager Head",
+      "image": "img/heads/villager-toolsmith-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "villager-weaponsmith-villager-head",
+      "mob": "Villager",
+      "head": "Weaponsmith Villager Head",
+      "image": "img/heads/villager-weaponsmith-villager-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Villages (plaines, plaines enneigées, savane, désert, taïga), sous-sol d'igloo, zombie guéri, reproduction"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Pain (3), carotte, pomme de terre ou betterave (12) + lits libres"
+      }
+    },
+    {
+      "id": "vindicator-vindicator-head",
+      "mob": "Vindicator",
+      "head": "Vindicator Head",
+      "image": "img/heads/vindicator-vindicator-head.png",
+      "rate": {
+        "base": 0.05,
+        "looting": 0.095
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Manoirs des bois, raids"
+      }
+    },
+    {
+      "id": "wandering-trader-wandering-trader-head",
+      "mob": "Wandering Trader",
+      "head": "Wandering Trader Head",
+      "image": "img/heads/wandering-trader-wandering-trader-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Près du joueur, tous biomes de l'Overworld (rare, environ toutes les 20 min), avec 2 lamas"
+      }
+    },
+    {
+      "id": "warden-warden-head",
+      "mob": "Warden",
+      "head": "Warden Head",
+      "image": "img/heads/warden-warden-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Sculk shriekers naturels (Deep Dark), activés 4 fois par un joueur"
+      }
+    },
+    {
+      "id": "witch-witch-head",
+      "mob": "Witch",
+      "head": "Witch Head",
+      "image": "img/heads/witch-witch-head.png",
+      "rate": {
+        "base": 0.005,
+        "looting": 0.008
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Surface de l'Overworld (lumière 0, sauf champignons et Deep Dark), cabanes de sorcières, raids, villageois frappé par la foudre"
+      }
+    },
+    {
+      "id": "wither-wither-head",
+      "mob": "Wither",
+      "head": "Wither Head",
+      "image": "img/heads/wither-wither-head.png",
+      "condition": {
+        "kind": "other",
+        "text": "toujours"
+      },
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Invoqué (sable des âmes + 3 crânes)"
+      }
+    },
+    {
+      "id": "wither-wither-projectile-head",
+      "mob": "Wither",
+      "head": "Wither Projectile Head",
+      "image": "img/heads/wither-wither-projectile-head.png",
+      "condition": {
+        "kind": "other",
+        "text": "50 % de chance du lot, puis 1 tête sur 2 (donc 25 % chacune)"
+      },
+      "rate": {
+        "base": 0.25
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Invoqué (sable des âmes + 3 crânes)"
+      }
+    },
+    {
+      "id": "wither-blue-wither-projectile-head",
+      "mob": "Wither",
+      "head": "Blue Wither Projectile Head",
+      "image": "img/heads/wither-blue-wither-projectile-head.png",
+      "condition": {
+        "kind": "other",
+        "text": "50 % de chance du lot, puis 1 tête sur 2 (donc 25 % chacune)"
+      },
+      "rate": {
+        "base": 0.25
+      },
+      "places": {
+        "dimensions": [],
+        "text": "Invoqué (sable des âmes + 3 crânes)"
+      }
+    },
+    {
+      "id": "wolf-ashen-wolf-head",
+      "mob": "Wolf",
+      "head": "Ashen Wolf Head",
+      "image": "img/heads/wolf-ashen-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante ashen, loup calme"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Taïga enneigée (meutes de 4)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-angry-ashen-wolf-head",
+      "mob": "Wolf",
+      "head": "Angry Ashen Wolf Head",
+      "image": "img/heads/wolf-angry-ashen-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante ashen, loup énervé"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Taïga enneigée (meutes de 4)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-black-wolf-head",
+      "mob": "Wolf",
+      "head": "Black Wolf Head",
+      "image": "img/heads/wolf-black-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante black, loup calme"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Vieille taïga de pins (meutes de 2-4)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-angry-black-wolf-head",
+      "mob": "Wolf",
+      "head": "Angry Black Wolf Head",
+      "image": "img/heads/wolf-angry-black-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante black, loup énervé"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Vieille taïga de pins (meutes de 2-4)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-chestnut-wolf-head",
+      "mob": "Wolf",
+      "head": "Chestnut Wolf Head",
+      "image": "img/heads/wolf-chestnut-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante chestnut, loup calme"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Vieille taïga d'épicéas (meutes de 2-4)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-angry-chestnut-wolf-head",
+      "mob": "Wolf",
+      "head": "Angry Chestnut Wolf Head",
+      "image": "img/heads/wolf-angry-chestnut-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante chestnut, loup énervé"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Vieille taïga d'épicéas (meutes de 2-4)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-pale-wolf-head",
+      "mob": "Wolf",
+      "head": "Pale Wolf Head",
+      "image": "img/heads/wolf-pale-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante pale, loup calme"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Taïga (meutes de 4)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-angry-pale-wolf-head",
+      "mob": "Wolf",
+      "head": "Angry Pale Wolf Head",
+      "image": "img/heads/wolf-angry-pale-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante pale, loup énervé"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Taïga (meutes de 4)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-rusty-wolf-head",
+      "mob": "Wolf",
+      "head": "Rusty Wolf Head",
+      "image": "img/heads/wolf-rusty-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante rusty, loup calme"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungle clairsemée (jungle et jungle de bambou par œuf ou commande)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-angry-rusty-wolf-head",
+      "mob": "Wolf",
+      "head": "Angry Rusty Wolf Head",
+      "image": "img/heads/wolf-angry-rusty-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante rusty, loup énervé"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Jungle clairsemée (jungle et jungle de bambou par œuf ou commande)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-snowy-wolf-head",
+      "mob": "Wolf",
+      "head": "Snowy Wolf Head",
+      "image": "img/heads/wolf-snowy-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante snowy, loup calme"
+      },
+      "rate": {
+        "base": 0.5,
+        "looting": 0.8
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Bosquet (seul)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-angry-snowy-wolf-head",
+      "mob": "Wolf",
+      "head": "Angry Snowy Wolf Head",
+      "image": "img/heads/wolf-angry-snowy-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante snowy, loup énervé"
+      },
+      "rate": {
+        "base": 0.5,
+        "looting": 0.8
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Bosquet (seul)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-spotted-wolf-head",
+      "mob": "Wolf",
+      "head": "Spotted Wolf Head",
+      "image": "img/heads/wolf-spotted-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante spotted, loup calme"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plateau de savane (meutes de 4-8)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-angry-spotted-wolf-head",
+      "mob": "Wolf",
+      "head": "Angry Spotted Wolf Head",
+      "image": "img/heads/wolf-angry-spotted-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante spotted, loup énervé"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Plateau de savane (meutes de 4-8)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-striped-wolf-head",
+      "mob": "Wolf",
+      "head": "Striped Wolf Head",
+      "image": "img/heads/wolf-striped-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante striped, loup calme"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Badlands boisés (meutes de 4-8)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-angry-striped-wolf-head",
+      "mob": "Wolf",
+      "head": "Angry Striped Wolf Head",
+      "image": "img/heads/wolf-angry-striped-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante striped, loup énervé"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Badlands boisés (meutes de 4-8)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-woods-wolf-head",
+      "mob": "Wolf",
+      "head": "Woods Wolf Head",
+      "image": "img/heads/wolf-woods-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante woods, loup calme"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Forêt (meutes de 4)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-angry-woods-wolf-head",
+      "mob": "Wolf",
+      "head": "Angry Woods Wolf Head",
+      "image": "img/heads/wolf-angry-woods-wolf-head.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante woods, loup énervé"
+      },
+      "rate": {
+        "base": 0.2,
+        "looting": 0.23
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Forêt (meutes de 4)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-pale-wolf-head-repli",
+      "mob": "Wolf",
+      "head": "Pale Wolf Head (repli)",
+      "image": "img/heads/wolf-pale-wolf-head-repli.png",
+      "condition": {
+        "kind": "other",
+        "text": "loup mort sans joueur (toute variante)"
+      },
+      "rate": {
+        "base": 0.2
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Taïgas (dont anciennes et enneigée), forêt, bosquet, plateau de savane, jungle clairsemée, badlands boisés (variante selon le biome)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "wolf-angry-pale-wolf-head-repli",
+      "mob": "Wolf",
+      "head": "Angry Pale Wolf Head (repli)",
+      "image": "img/heads/wolf-angry-pale-wolf-head-repli.png",
+      "condition": {
+        "kind": "other",
+        "text": "loup mort sans joueur (toute variante)"
+      },
+      "rate": {
+        "base": 0.2
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Taïgas (dont anciennes et enneigée), forêt, bosquet, plateau de savane, jungle clairsemée, badlands boisés (variante selon le biome)"
+      },
+      "mating": {
+        "possible": true,
+        "text": "Viande (hors poisson), chair putréfiée comprise ; loup apprivoisé"
+      }
+    },
+    {
+      "id": "zoglin-zoglin-head",
+      "mob": "Zoglin",
+      "head": "Zoglin Head",
+      "image": "img/heads/zoglin-zoglin-head.png",
+      "rate": {
+        "base": 0.2,
+        "looting": 0.35
+      },
+      "places": {
+        "dimensions": [
+          "nether"
+        ],
+        "text": "Hoglin resté 15 s hors du Nether"
+      }
+    },
+    {
+      "id": "zombie-horse-zombie-horse-head",
+      "mob": "Zombie Horse",
+      "head": "Zombie Horse Head",
+      "image": "img/heads/zombie-horse-zombie-horse-head.png",
+      "rate": {
+        "base": 1.0
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Cavalier zombie : plaines, plaines de tournesols et enneigées, savane (lumière 0)"
+      }
+    },
+    {
+      "id": "zombie-nautilus-temperate-zombie-nautilus-shell",
+      "mob": "Zombie Nautilus",
+      "head": "Temperate Zombie Nautilus Shell",
+      "image": "img/heads/zombie-nautilus-temperate-zombie-nautilus-shell.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : temperate"
+      },
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Noyé au trident (50 % de monture) : océans, Dripstone Caves, ruines sous-marines"
+      }
+    },
+    {
+      "id": "zombie-nautilus-coral-zombie-nautilus-shell",
+      "mob": "Zombie Nautilus",
+      "head": "Coral Zombie Nautilus Shell",
+      "image": "img/heads/zombie-nautilus-coral-zombie-nautilus-shell.png",
+      "condition": {
+        "kind": "variant",
+        "text": "variante : warm"
+      },
+      "rate": {
+        "base": 0.1,
+        "looting": 0.13
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Noyé au trident (50 % de monture) : océans, Dripstone Caves, ruines sous-marines ; variante coraline en océan chaud"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-armorer-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Armorer Head",
+      "image": "img/heads/zombie-villager-zombie-armorer-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-butcher-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Butcher Head",
+      "image": "img/heads/zombie-villager-zombie-butcher-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-cartographer-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Cartographer Head",
+      "image": "img/heads/zombie-villager-zombie-cartographer-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-cleric-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Cleric Head",
+      "image": "img/heads/zombie-villager-zombie-cleric-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-farmer-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Farmer Head",
+      "image": "img/heads/zombie-villager-zombie-farmer-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-fisherman-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Fisherman Head",
+      "image": "img/heads/zombie-villager-zombie-fisherman-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-fletcher-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Fletcher Head",
+      "image": "img/heads/zombie-villager-zombie-fletcher-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-leatherworker-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Leatherworker Head",
+      "image": "img/heads/zombie-villager-zombie-leatherworker-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-librarian-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Librarian Head",
+      "image": "img/heads/zombie-villager-zombie-librarian-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-mason-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Mason Head",
+      "image": "img/heads/zombie-villager-zombie-mason-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-nitwit-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Nitwit Head",
+      "image": "img/heads/zombie-villager-zombie-nitwit-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-villager-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Villager Head",
+      "image": "img/heads/zombie-villager-zombie-villager-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-shepherd-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Shepherd Head",
+      "image": "img/heads/zombie-villager-zombie-shepherd-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-toolsmith-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Toolsmith Head",
+      "image": "img/heads/zombie-villager-zombie-toolsmith-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombie-villager-zombie-weaponsmith-head",
+      "mob": "Zombie Villager",
+      "head": "Zombie Weaponsmith Head",
+      "image": "img/heads/zombie-villager-zombie-weaponsmith-head.png",
+      "rate": {
+        "base": 0.5,
+        "looting": 0.56
+      },
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Zombie normal remplacé (5 %, 20 % en vieille taïga de pins), villages abandonnés, sous-sol d'igloo, villageois tué par un zombie"
+      }
+    },
+    {
+      "id": "zombified-piglin-zombified-piglin-head",
+      "mob": "Zombified Piglin",
+      "head": "Zombified Piglin Head",
+      "image": "img/heads/zombified-piglin-zombified-piglin-head.png",
+      "rate": {
+        "base": 0.005,
+        "looting": 0.008
+      },
+      "places": {
+        "dimensions": [
+          "nether"
+        ],
+        "text": "Nether (déchets, forteresses, forêt pourpre), portails du Nether, jockey de strider (rare)"
+      }
+    },
+    {
+      "id": "creeper-non-charge",
+      "mob": "Creeper (non chargé)",
+      "head": null,
+      "condition": {
+        "kind": "charged",
+        "text": "géré par le vanilla : tuer le mob avec l'explosion d'un creeper chargé"
+      },
+      "rate": null,
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Surface la nuit, grottes"
+      }
+    },
+    {
+      "id": "piglin",
+      "mob": "Piglin",
+      "head": null,
+      "condition": {
+        "kind": "charged",
+        "text": "géré par le vanilla : tuer le mob avec l'explosion d'un creeper chargé"
+      },
+      "rate": null,
+      "places": {
+        "dimensions": [
+          "nether"
+        ],
+        "text": "Déchets du Nether, forêt pourpre, bastions"
+      }
+    },
+    {
+      "id": "skeleton",
+      "mob": "Skeleton",
+      "head": null,
+      "condition": {
+        "kind": "charged",
+        "text": "géré par le vanilla : tuer le mob avec l'explosion d'un creeper chargé"
+      },
+      "rate": null,
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Surface la nuit, donjons, forteresses"
+      }
+    },
+    {
+      "id": "wither-skeleton",
+      "mob": "Wither Skeleton",
+      "head": null,
+      "condition": {
+        "kind": "other",
+        "text": "non géré par le pack : drop vanilla du crâne (Wither Skeleton Skull)"
+      },
+      "rate": null,
+      "places": {
+        "dimensions": [
+          "nether"
+        ],
+        "text": "Forteresses du Nether"
+      }
+    },
+    {
+      "id": "zombie",
+      "mob": "Zombie",
+      "head": null,
+      "condition": {
+        "kind": "charged",
+        "text": "géré par le vanilla : tuer le mob avec l'explosion d'un creeper chargé"
+      },
+      "rate": null,
+      "places": {
+        "dimensions": [
+          "overworld"
+        ],
+        "text": "Surface la nuit, villages"
+      }
+    }
+  ]
+}
