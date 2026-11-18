@@ -218,9 +218,14 @@ h1 {
   color: var(--mut);
 }
 
+/* Préférences : boutons à part, fixés en bas à droite (marge d'encoche respectée). */
 .prefs {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 10;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 0.5rem;
 }
 
@@ -294,6 +299,11 @@ select {
     forced-color-adjust: none;
     background-color: ButtonText;
   }
+}
+
+/* Les boutons fixes en bas ne masquent jamais l'élément qui prend le focus (WCAG 2.4.11). */
+html {
+  scroll-padding-bottom: 8rem;
 }
 
 /* Barre de filtres. */
@@ -643,7 +653,7 @@ tbody tr:has(.own:checked) {
 }
 
 .foot {
-  padding-block: 0.5rem 2rem;
+  padding-block: 0.5rem 7rem;
   color: var(--mut);
   font-size: 0.9rem;
 }
